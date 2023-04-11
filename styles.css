@@ -1,0 +1,48 @@
+
+#comments_button {
+    display: none;
+    margin: auto;
+}
+
+.input_container {
+    width: 300px;
+    margin: auto;
+    padding: 10px;    
+}
+
+.container {
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px 5px;
+    background-color: rgba(231, 231, 231, 0.4); 
+    box-shadow: 0 0 5px 1px gray;       
+}
+
+.container::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
+.name {
+    font-weight: bold;
+    padding: 5px 5px 5px 0;
+}
+
+.email {
+    font-style: italic;
+    padding: 5px 5px 5px 0;
+}
+
+#postButton, #comments_button {
+    background-color: white;
+}
+
+#postButton:hover {
+    color: white;
+    background-color: black;    
+}
+
+#comments_button:hover {
+    color: white;
+    background-color: black;
+}
